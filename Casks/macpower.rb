@@ -9,8 +9,8 @@ cask "macpower" do
   desc "Menu bar battery monitor for Apple silicon MacBooks"
   homepage "https://github.com/RyanStarFox/MacPower"
 
-  depends_on macos: ">= :sonoma"
   depends_on arch: :arm64
+  depends_on macos: :sonoma
 
   app "MacPower.app"
 
