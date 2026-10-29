@@ -2,7 +2,7 @@
 #   brew install --cask --no-quarantine ryanstarfox/tap/macpower
 cask "macpower" do
   version "1.3.0"
-  sha256 "8d51175ae0205d43602fbe4f46063f728d618a19f212300e1ad4b248d2df824e"
+  sha256 "a4f323f9ef38a86df32f6a40ae5b95346e41574f4b7898d33335fb521181f94d"
 
   url "https://github.com/RyanStarFox/MacPower/releases/download/v#{version}/MacPower-#{version}.dmg"
   name "MacPower"
